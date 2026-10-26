@@ -3,7 +3,7 @@
 Which restaurants are most likely to score worse than an A on NYC health inspections?
 
 ## Summary
-I analyzed about 292K violation records from the NYC Department of Health, restructured them into 82,859 inspections, and focused on 46,830 routine initial inspections. Cuisine was far more strongly associated with failing than borough was: not-A rates ranged from 18% to 63% across cuisines, versus a ~6-point spread across boroughs. The gap held within each borough that had enough data to compare.
+The analysis involved almost 292K violation records from the NYC Department of Health, which was converted into 82,859 inspections with an emphasis on 46,830 routine initial inspections. Cuisine was much more related to failure than the borough: the range of not-A rates was between 18% to 63% in various cuisines compared to 6 points in different boroughs.
 
 ## Approach
 1. Cleaned the data (duplicates, text dates, placeholder rows, invalid boroughs)
